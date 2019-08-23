@@ -103,7 +103,7 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 50px;
+  padding: 60px;
   text-transform: uppercase;
   width: 50%;
   min-width: 600px;
@@ -299,20 +299,40 @@ p#about-me-statement {
   height: 1400px;
 }
 
+.rowP h2 {
+  margin: 50px;
+}
+
 #portfolioWrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.rowP div {
-  height: 300px;
-  width: 500px;
-  border: 2px solid white;
+.rowP article {
+  height: 365px;
+  width: 600px;
+  margin-bottom: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-iframe {
-  border: none;
+#rgb-hero2 {
+  background-image: url("./img/portfolio/rgbhero2.png");
+  background-color: white;
+  background-size: 90%;
+}
+
+#paint-me-the-weather {
+  background-image: url("./img/portfolio/paint-me-the-weather.png");
+  background-color: black;
+  background-size: 100%;
+}
+
+#anapana {
+  background-image: url("./img/portfolio/anapana.png");
+  background-color: white;
+  background-size: 120%;
 }
 
 /*******************Experience/Timeline*****************/
