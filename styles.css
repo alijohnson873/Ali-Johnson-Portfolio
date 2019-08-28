@@ -296,7 +296,7 @@ p#about-me-statement {
 .rowP {
   background-color: #21242e;
   color: white;
-  height: 1400px;
+  /* height: 1400px; */
 }
 
 .rowP h2 {
@@ -317,6 +317,13 @@ p#about-me-statement {
   background-repeat: no-repeat;
 }
 
+#hedira {
+  background-image: url("./img/portfolio/hedira.png");
+  background-color: white;
+  background-size: 90%;
+  background-position: bottom;
+}
+
 #rgb-hero2 {
   background-image: url("./img/portfolio/rgbhero2.png");
   background-color: white;
@@ -324,15 +331,21 @@ p#about-me-statement {
 }
 
 #paint-me-the-weather {
-  background-image: url("./img/portfolio/paint-me-the-weather.png");
+  background-image: url("./img/portfolio/paintmetheweather2.png");
   background-color: black;
-  background-size: 100%;
+  background-size: 110%;
 }
 
 #anapana {
   background-image: url("./img/portfolio/anapana.png");
   background-color: white;
   background-size: 120%;
+}
+
+#rgb-hero {
+  background-image: url("./img/portfolio/rgbhero1.png");
+  background-color: black;
+  background-size: 150%;
 }
 
 /*******************Experience/Timeline*****************/
