@@ -338,12 +338,16 @@ p#about-me-statement {
   padding: 10px;
   color: white;
   transition: opacity 0.5s;
-  /* border: 5px solid white; */
 }
 
 .overlay > p {
   color: white;
   font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.overlay > h3 {
+  font-size: 35px;
 }
 
 .overlay > a {
@@ -358,8 +362,8 @@ p#about-me-statement {
 }
 
 .overlay > a:hover {
-  color: rgb(51, 34, 151);
-  border-color: rgb(51, 34, 151);
+  color: rgb(4, 3, 12);
+  border-color: rgb(0, 0, 0);
 }
 
 #hedira {
@@ -431,6 +435,26 @@ p#about-me-statement {
 
 .morse-code-overlay {
   background-color: rgb(24, 131, 42);
+}
+
+#alien-invasion {
+  background-image: url("./img/portfolio/alien.png");
+  background-color: black;
+  background-size: 100%;
+}
+
+.alien-invasion-overlay {
+  background-color: rgb(101, 24, 131);
+}
+
+#to-do {
+  background-image: url("./img/portfolio/to-do.png");
+  background-color: white;
+  background-size: 100%;
+}
+
+.to-do-overlay {
+  background-color: rgb(131, 88, 24);
 }
 
 /*******************Experience/Timeline*****************/
