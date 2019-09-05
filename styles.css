@@ -296,7 +296,6 @@ p#about-me-statement {
 .rowP {
   background-color: #21242e;
   color: white;
-  /* height: 1400px; */
 }
 
 .rowP h2 {
@@ -306,14 +305,14 @@ p#about-me-statement {
 #portfolioWrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 80px;
 }
 
 .rowP article {
   height: 365px;
   width: 600px;
-  margin-bottom: 50px;
+  margin: 50px;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -323,8 +322,11 @@ p#about-me-statement {
   opacity: 1;
 }
 
+.overlay:active {
+  opacity: 1;
+}
+
 .overlay {
-  /* background-color: blue; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -362,8 +364,13 @@ p#about-me-statement {
 }
 
 .overlay > a:hover {
-  color: rgb(4, 3, 12);
-  border-color: rgb(0, 0, 0);
+  color: rgb(240, 235, 235);
+  border-color: rgb(163, 162, 162);
+}
+
+#hedira > a:hover {
+  color: rgb(195, 179, 179);
+  border-color: rgb(207, 201, 201);
 }
 
 #hedira {
@@ -670,15 +677,15 @@ p#about-me-statement {
 /****************************Footer ****************************/
 footer {
   background-color: #21242e;
-  height: 90px;
+  height: 170px;
   color: white;
   text-align: center;
   border-top: 15px solid #fa923d;
 }
 
 footer h3 {
-  padding-top: 7px;
-  font-size: 20px;
+  padding-top: 17px;
+  font-size: 40px;
 }
 
 @media only screen and (max-width: 1290px) {
