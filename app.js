@@ -5,3 +5,6 @@
 //     item.style.opacity = "1";
 //   });
 // });
+
+document.addEventListener('DOMContentLoaded', function(){
+    var trigger = new ScrollTrigger();

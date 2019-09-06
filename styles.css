@@ -205,13 +205,11 @@ p#about-me-statement {
   height: 50px;
   margin: 25px;
 }
-
 .skill {
   border-radius: 0px 15px 15px 0px;
   float: left;
   height: 100%;
 }
-
 .skill p {
   color: white;
   text-align: left;
@@ -219,35 +217,25 @@ p#about-me-statement {
   bottom: 20px;
   left: 15px;
 }
-
 .html {
   background-color: #f83b3b;
-  width: 60%;
+  width: 70%;
   animation: html 2s;
 }
-
 .css {
   background-color: #3a973a;
-  width: 50%;
+  width: 60%;
   animation: css 2s;
 }
-
 .javascript {
   background-color: #df8c10;
-  width: 30%;
+  width: 50%;
   animation: javascript 2s;
 }
-
-.jquery {
-  background-color: #10c0df;
-  width: 10%;
-  animation: jquery 2s;
-}
-
-.lorem {
+.react {
   background-color: #9608b9;
   width: 35%;
-  animation: lorem 2s;
+  animation: react 2s;
 }
 
 @keyframes html {
@@ -255,7 +243,7 @@ p#about-me-statement {
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 @keyframes css {
@@ -263,7 +251,7 @@ p#about-me-statement {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 60%;
   }
 }
 @keyframes javascript {
@@ -271,18 +259,10 @@ p#about-me-statement {
     width: 0%;
   }
   100% {
-    width: 30%;
+    width: 50%;
   }
 }
-@keyframes jquery {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 10%;
-  }
-}
-@keyframes lorem {
+@keyframes react {
   0% {
     width: 0%;
   }
